@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6524D7C61D04C419005A5328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524D7C51D04C419005A5328 /* AppDelegate.swift */; };
+		6524D7C81D04C419005A5328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524D7C71D04C419005A5328 /* ViewController.swift */; };
+		6524D7CB1D04C419005A5328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6524D7C91D04C419005A5328 /* Main.storyboard */; };
+		6524D7CD1D04C419005A5328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6524D7CC1D04C419005A5328 /* Assets.xcassets */; };
+		6524D7D01D04C419005A5328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6524D7CE1D04C419005A5328 /* LaunchScreen.storyboard */; };
+		6524D7DB1D04C419005A5328 /* DealsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524D7DA1D04C419005A5328 /* DealsAppTests.swift */; };
+		6524D7E61D04C419005A5328 /* DealsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524D7E51D04C419005A5328 /* DealsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6524D7D71D04C419005A5328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6524D7BA1D04C419005A5328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6524D7C11D04C419005A5328;
+			remoteInfo = DealsApp;
+		};
+		6524D7E21D04C419005A5328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6524D7BA1D04C419005A5328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6524D7C11D04C419005A5328;
+			remoteInfo = DealsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6524D7C21D04C419005A5328 /* DealsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6524D7C51D04C419005A5328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6524D7C71D04C419005A5328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6524D7CA1D04C419005A5328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6524D7CC1D04C419005A5328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6524D7CF1D04C419005A5328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6524D7D11D04C419005A5328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6524D7D61D04C419005A5328 /* DealsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6524D7DA1D04C419005A5328 /* DealsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsAppTests.swift; sourceTree = "<group>"; };
+		6524D7DC1D04C419005A5328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6524D7E11D04C419005A5328 /* DealsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6524D7E51D04C419005A5328 /* DealsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsAppUITests.swift; sourceTree = "<group>"; };
+		6524D7E71D04C419005A5328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6524D7BF1D04C419005A5328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7D31D04C419005A5328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7DE1D04C419005A5328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6524D7B91D04C419005A5328 = {
+			isa = PBXGroup;
+			children = (
+				6524D7C41D04C419005A5328 /* DealsApp */,
+				6524D7D91D04C419005A5328 /* DealsAppTests */,
+				6524D7E41D04C419005A5328 /* DealsAppUITests */,
+				6524D7C31D04C419005A5328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6524D7C31D04C419005A5328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6524D7C21D04C419005A5328 /* DealsApp.app */,
+				6524D7D61D04C419005A5328 /* DealsAppTests.xctest */,
+				6524D7E11D04C419005A5328 /* DealsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6524D7C41D04C419005A5328 /* DealsApp */ = {
+			isa = PBXGroup;
+			children = (
+				6524D7C51D04C419005A5328 /* AppDelegate.swift */,
+				6524D7C71D04C419005A5328 /* ViewController.swift */,
+				6524D7C91D04C419005A5328 /* Main.storyboard */,
+				6524D7CC1D04C419005A5328 /* Assets.xcassets */,
+				6524D7CE1D04C419005A5328 /* LaunchScreen.storyboard */,
+				6524D7D11D04C419005A5328 /* Info.plist */,
+			);
+			path = DealsApp;
+			sourceTree = "<group>";
+		};
+		6524D7D91D04C419005A5328 /* DealsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6524D7DA1D04C419005A5328 /* DealsAppTests.swift */,
+				6524D7DC1D04C419005A5328 /* Info.plist */,
+			);
+			path = DealsAppTests;
+			sourceTree = "<group>";
+		};
+		6524D7E41D04C419005A5328 /* DealsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6524D7E51D04C419005A5328 /* DealsAppUITests.swift */,
+				6524D7E71D04C419005A5328 /* Info.plist */,
+			);
+			path = DealsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6524D7C11D04C419005A5328 /* DealsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6524D7EA1D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsApp" */;
+			buildPhases = (
+				6524D7BE1D04C419005A5328 /* Sources */,
+				6524D7BF1D04C419005A5328 /* Frameworks */,
+				6524D7C01D04C419005A5328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealsApp;
+			productName = DealsApp;
+			productReference = 6524D7C21D04C419005A5328 /* DealsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6524D7D51D04C419005A5328 /* DealsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6524D7ED1D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsAppTests" */;
+			buildPhases = (
+				6524D7D21D04C419005A5328 /* Sources */,
+				6524D7D31D04C419005A5328 /* Frameworks */,
+				6524D7D41D04C419005A5328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6524D7D81D04C419005A5328 /* PBXTargetDependency */,
+			);
+			name = DealsAppTests;
+			productName = DealsAppTests;
+			productReference = 6524D7D61D04C419005A5328 /* DealsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6524D7E01D04C419005A5328 /* DealsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6524D7F01D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsAppUITests" */;
+			buildPhases = (
+				6524D7DD1D04C419005A5328 /* Sources */,
+				6524D7DE1D04C419005A5328 /* Frameworks */,
+				6524D7DF1D04C419005A5328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6524D7E31D04C419005A5328 /* PBXTargetDependency */,
+			);
+			name = DealsAppUITests;
+			productName = DealsAppUITests;
+			productReference = 6524D7E11D04C419005A5328 /* DealsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6524D7BA1D04C419005A5328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Okwufulueze Daniel";
+				TargetAttributes = {
+					6524D7C11D04C419005A5328 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6524D7D51D04C419005A5328 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6524D7C11D04C419005A5328;
+					};
+					6524D7E01D04C419005A5328 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6524D7C11D04C419005A5328;
+					};
+				};
+			};
+			buildConfigurationList = 6524D7BD1D04C419005A5328 /* Build configuration list for PBXProject "DealsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6524D7B91D04C419005A5328;
+			productRefGroup = 6524D7C31D04C419005A5328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6524D7C11D04C419005A5328 /* DealsApp */,
+				6524D7D51D04C419005A5328 /* DealsAppTests */,
+				6524D7E01D04C419005A5328 /* DealsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6524D7C01D04C419005A5328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6524D7D01D04C419005A5328 /* LaunchScreen.storyboard in Resources */,
+				6524D7CD1D04C419005A5328 /* Assets.xcassets in Resources */,
+				6524D7CB1D04C419005A5328 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7D41D04C419005A5328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7DF1D04C419005A5328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6524D7BE1D04C419005A5328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6524D7C81D04C419005A5328 /* ViewController.swift in Sources */,
+				6524D7C61D04C419005A5328 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7D21D04C419005A5328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6524D7DB1D04C419005A5328 /* DealsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6524D7DD1D04C419005A5328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6524D7E61D04C419005A5328 /* DealsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6524D7D81D04C419005A5328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6524D7C11D04C419005A5328 /* DealsApp */;
+			targetProxy = 6524D7D71D04C419005A5328 /* PBXContainerItemProxy */;
+		};
+		6524D7E31D04C419005A5328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6524D7C11D04C419005A5328 /* DealsApp */;
+			targetProxy = 6524D7E21D04C419005A5328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6524D7C91D04C419005A5328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6524D7CA1D04C419005A5328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6524D7CE1D04C419005A5328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6524D7CF1D04C419005A5328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6524D7E81D04C419005A5328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6524D7E91D04C419005A5328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6524D7EB1D04C419005A5328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DealsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6524D7EC1D04C419005A5328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DealsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6524D7EE1D04C419005A5328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DealsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealsApp.app/DealsApp";
+			};
+			name = Debug;
+		};
+		6524D7EF1D04C419005A5328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DealsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealsApp.app/DealsApp";
+			};
+			name = Release;
+		};
+		6524D7F11D04C419005A5328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DealsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DealsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6524D7F21D04C419005A5328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DealsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.DealsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DealsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6524D7BD1D04C419005A5328 /* Build configuration list for PBXProject "DealsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6524D7E81D04C419005A5328 /* Debug */,
+				6524D7E91D04C419005A5328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6524D7EA1D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6524D7EB1D04C419005A5328 /* Debug */,
+				6524D7EC1D04C419005A5328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6524D7ED1D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6524D7EE1D04C419005A5328 /* Debug */,
+				6524D7EF1D04C419005A5328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6524D7F01D04C419005A5328 /* Build configuration list for PBXNativeTarget "DealsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6524D7F11D04C419005A5328 /* Debug */,
+				6524D7F21D04C419005A5328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6524D7BA1D04C419005A5328 /* Project object */;
+}
