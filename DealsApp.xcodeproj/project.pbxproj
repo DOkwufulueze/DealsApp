@@ -83,6 +83,7 @@
 				6524D7C31D04C419005A5328 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		6524D7C31D04C419005A5328 /* Products */ = {
 			isa = PBXGroup;
